@@ -1,0 +1,19 @@
+* {
+	box-sizing: border-box;
+}
+
+:root,
+html {
+	scroll-behavior: smooth;
+}
+
+:root,
+body,
+#root {
+	min-width: 360px;
+}
+
+body {
+	margin: 0;
+	padding: auto;
+}
