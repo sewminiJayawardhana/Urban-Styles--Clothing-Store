@@ -1,7 +1,7 @@
 import React from 'react'
 import '../pages/styles/Footer.css'
 import { MapPin,PhoneCall,Mail} from 'lucide-react';
-import { FaFacebookF, FaInstagram, FaMusic } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
 
 
 const Footer = () => {
@@ -20,7 +20,7 @@ const Footer = () => {
             <div className="social-icons">
                 <a href="#"><FaFacebookF size={28} style={{ color: "black" }} /></a>
                 <a href="#"><FaInstagram size={28} style={{ color: "#000000ff" }} /></a>
-                <a href="#"><FaMusic size={28} style={{ color: "#000000ff" }} /></a>
+                <a href="#"><FaTwitter size={28} style={{ color: "#000000ff" }} /></a>
             </div>
         </div>
     </div>
